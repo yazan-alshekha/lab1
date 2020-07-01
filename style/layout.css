@@ -1,0 +1,95 @@
+@media (min-width:768px) and (max-width:960px) {
+    body {
+        text-align: center;
+        grid-template-rows: 100px 200px 190px 150px;
+        display: grid;
+        grid-template-areas: "header header header header header" "aside section1 section1 section2 section2" "aside art1 art2 art3 art4" "footer footer footer footer footer"
+    }
+    header {
+        grid-area: header;
+        background-color: tan;
+    }
+    aside {
+        background-color: yellow;
+        grid-area: aside;
+    }
+    footer {
+        background-color: slategrey;
+        grid-area: footer;
+    }
+    #section1 {
+        grid-area: section1;
+        background-color: silver;
+    }
+    #section2 {
+        grid-area: section2;
+        background-color: red;
+    }
+    #art1 {
+        grid-area: art1;
+        background-color: darkorchid;
+    }
+    #art2 {
+        grid-area: art2;
+        background-color: darkgreen;
+    }
+    #art3 {
+        grid-area: art3;
+        background-color: darkcyan;
+    }
+    #art4 {
+        grid-area: art4;
+        background-color: darkblue;
+    }
+}
+
+
+/*   end media */
+
+@media (min-width:480px) and (max-width:767px) {
+    body {
+        text-align: center;
+        grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
+        display: grid;
+        grid-template-areas: "header header" "aside aside" "section1 section1" "section2 section2" "art1 art2" "art3 art4" "footer footer"
+    }
+    header {
+        grid-area: header;
+        background-color: green;
+    }
+    aside {
+        background-color: gray;
+        grid-area: aside;
+    }
+    footer {
+        background-color: yellowgreen;
+        grid-area: footer;
+    }
+    #section1 {
+        grid-area: section1;
+        background-color: springgreen;
+    }
+    #section2 {
+        grid-area: section2;
+        background-color: red;
+    }
+    #art1 {
+        grid-area: art1;
+        background-color: whitesmoke;
+    }
+    #art2 {
+        grid-area: art2;
+        background-color: rgb(33, 44, 33);
+    }
+    #art3 {
+        grid-area: art3;
+        background-color: rgb(148, 185, 185);
+    }
+    #art4 {
+        grid-area: art4;
+        background-color: rgb(134, 134, 148);
+    }
+}
+
+
+/* end media */
